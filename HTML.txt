@@ -1,0 +1,124 @@
+     <!DOCTYPE html>
+<html>
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>  
+<body>
+<br />
+<div id="txt">Example</div><br /><br />
+<div class="nav">
+  
+ 
+ <a class="active"href="#HTML10.html" onclick="show()" style="border-bottom: 3px solid red;">Home</a>  
+  <a href="#HTML2" onclick="hide()">Profile</a>   
+  <a href="#HTML3" onclick="hide()">Family Members</a> 
+  <a href="#polo"   onclick="hide()">Gallery</a> 
+  <a href="#HTML5" onclick="hide()">Friend circle</a>
+  
+  <a href="#HTML6" onclick="hide()">Achivement</a> 
+  <a href="#Html7" onclick="hide()">Gang</a>
+  
+  
+  <a href="index 1" onclick="hide()">surprise</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</div><marquee bgcolor="silver" id="t"><font size="4"><font color="green">Welcome</marquee></font>
+
+<div style="padding-left:16px">
+</div><div id="#HTML10.html">
+<div id="text">Welcome to my Webpage</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+<span class="hid" id="target1">
+<h2><center><div style="font-family:Serif;">Html</div></center></h2>
+<div id="s1">
+
+What is HTML?
+
+HTML is a Hyper Text Markup Language. These websites can then be viewed by anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible to most people in one sitting; and quite powerful in what it allows you to create. It is constantly undergoing revision and evolution to meet the demands and requirements of the growing Internet audience under the direction of the » W3C, the organisation charged with designing and maintaining the language.
+
+The definition of HTML is HyperText Markup Language.
+
+HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+
+Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
+
+HTML is a Language, as it has code-words and syntax like any other language.
+
+</div><h2><center><div style="font-family:Serif;">Css</div></center></h2>
+<div id="s1">
+    Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
+ 
+CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
+
+CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.
+
+Advantages of CSS
+
+CSS saves time - You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+
+Pages load faster - If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.
+
+Easy maintenance - To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+Superior styles to HTML - CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.
+
+Multiple Device Compatibility - Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.
+
+Global web standards - Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.
+
+Offline Browsing - CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.The cache also ensures faster loading and better overall performance of the website.
+
+Platform Independence - The Script offer consistent platform independence and can support latest browsers as well.
+
+</div>
+<h2><center><div style="font-family:Serif;">JavaScript</div></center></h2>
+<div id="s1">
+    Javascript (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user’s browser etc.
+
+
+
+</div>
+</span>
+  <span class="hid" id="target2"><div class="section">
+          <center>  <h1><div>Contact Me</div></h1></center>
+            <form method="post" name="myForm" onsubmit="fun()">
+      <input id="inp" name="user" autocomplete="off" placeholder="Enter name"type="text" /><br/>
+      <input id="inp"name="email" autocomplete="off" placeholder="Enter Email" type="email" /><br/>
+    <textarea id="tt" name="txt" palceholder="massage" ></textarea><br />
+  <input type="submit" onclick="fun()" value="submit" id="b" />
+  <input type="reset" value="Reset" id="btn"/>
+            </form>
+      </div>  </span>
+
+<span class="hid" id="target3">
+    <div id="s1">
+    <center><h2>Personal Info</h2></center>
+      <center>  
+        Name:     Abid Hasan Bejoy<br/>
+        Location: Bangladesh<br />
+        Learner
+          </center>  
+        </div>
+        
+        <div id="s1">
+       <center><h2>My Skills</h2></center>
+<div class="progress-bar"> <span class="progress-value" style="width: 55%;"></span> </div> <span><strong>JAVASCRIPT</strong></span> <br/> <div class="progress-bar"> <span class="progress-value" style="width: 99%;"></span> </div> <span><strong>HTML</strong></span> <br/> <div class="progress-bar"> <span class="progress-value" style="width: 99%;"></span> </div> <span><strong>CSS</strong></span> <br/>
+</div></div></span>
+<div id="foot">Copyright <sup>&copy;</sup>  2018-19 <br /> </div>
+<script> 
+ function hide() {  document.getElementById("target0").style.display="none";
+  } 
+  function show() {  document.getElementById("target0").style.display="block";
+  } 
+ function hide() {  document.getElementById("target0").style.display="none";
+  } 
+ </script>
+</body>
+</html>
